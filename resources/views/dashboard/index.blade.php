@@ -1,5 +1,6 @@
 @extends('dashboard.layouts.main')
-@include('dashboard.layouts.breadcrumbs')
+
+@section('container')
   <section class="section dashboard">
     <div class="row">
 
@@ -418,4 +419,4 @@
       </div><!-- End Right side columns -->
     </div>
   </section>
-</main>
+@endsection

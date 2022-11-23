@@ -32,7 +32,7 @@
               <div class="card-body">
                 <div class="pt-4 pb-2">
                   <h5 class="card-title text-center pb-0 fs-4">Masuk ke Akun Anda</h5>
-                  <p class="text-center small">Masukkan email dan password untuk masuk</p>
+                  <p class="text-center small">Masukkan email dan password</p>
                 </div>
                 <form action="/login" class="row g-3" method="post">
                     @csrf

@@ -1,6 +1,6 @@
 @extends('dashboard.layouts.main')
-@include('dashboard.layouts.breadcrumbs')
 
+@section('container')
     <section class="section profile">
       <div class="row">
         <div class="col-xl-4">
@@ -256,7 +256,7 @@
                     </div>
 
                     <div class="text-center">
-                      <button type="submit" class="btn btn-primary">Change Password</button>
+                      <button type="submit" class="btn btn-warning">Change Password</button>
                     </div>
                   </form><!-- End Change Password Form -->
 
@@ -270,6 +270,4 @@
         </div>
       </div>
     </section>
-
-  </main>
-</main>
+@endsection
