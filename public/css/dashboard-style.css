@@ -697,16 +697,14 @@ h6 {
     margin: 10px 0 5px 15px;
 }
 
-.sidebar-nav .nav-link {
+.sidebar-nav .nav-link, button {
     display: flex;
     align-items: center;
     font-size: 15px;
     font-weight: 600;
     color: #353535;
     transition: 0.3;
-    background: #f6f9ff;
     padding: 10px 15px;
-    border-radius: 4px;
 }
 
 .sidebar-nav .nav-link i {
@@ -726,10 +724,13 @@ h6 {
 
 .sidebar-nav .nav-link:hover {
     color: #f57e20;
-    background: #f6f9ff;
 }
 
 .sidebar-nav .nav-link:hover i {
+    color: #f57e20;
+}
+
+.sidebar-nav .nav-link:hover button {
     color: #f57e20;
 }
 
