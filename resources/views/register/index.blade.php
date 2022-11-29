@@ -1,6 +1,6 @@
 @extends('layouts.main')
-
-<main id="main">
+@section('container')
+    
     <section class="inner-page min-vh-100 d-flex flex-column align-items-center justify-content-center pb-2">
       <div class="container">
         <div class="row justify-content-center">
@@ -68,4 +68,4 @@
         </div>
       </div>
     </section>
-  </main>
+@endsection

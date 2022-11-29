@@ -1,6 +1,6 @@
 @extends('layouts.main')
+@section('container')
 
-<main id="main">
     <section class="inner-page min-vh-100 d-flex flex-column align-items-center justify-content-center pb-2">
       <div class="container">
         <div class="row d-flex flex-column align-items-center justify-content-center">
@@ -32,7 +32,7 @@
               <div class="card-body">
                 <div class="pt-4 pb-2">
                   <h5 class="card-title text-center pb-0 fs-4">Masuk ke Akun Anda</h5>
-                  <p class="text-center small">Masukkan email dan password untuk masuk</p>
+                  <p class="text-center small">Masukkan email dan password</p>
                 </div>
                 <form action="/login" class="row g-3" method="post">
                     @csrf
@@ -63,4 +63,4 @@
         </div>
       </div>
     </section>
-  </main>
+@endsection

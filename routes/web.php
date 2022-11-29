@@ -110,10 +110,10 @@ Route::get('/analisis-harian', function () {
     ]);
 });
 
-Route::get('/account', function () {
+Route::get('/profile', function () {
     return view('dashboard.account', [
         "title" => "Profile",
-        'active' => 'account'
+        'active' => 'profile'
     ]);
 })->middleware('auth');
 

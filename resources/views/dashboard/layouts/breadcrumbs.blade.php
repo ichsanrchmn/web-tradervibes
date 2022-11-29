@@ -1,5 +1,3 @@
-<main id="main" class="main">
-
     <div class="pagetitle">
       <h1>{{ $title }}</h1>
       <nav>
@@ -8,4 +6,4 @@
           <li class="breadcrumb-item active">{{ $title }}</li>
         </ol>
       </nav>
-    </div><!-- End Page Title -->
+    </div>

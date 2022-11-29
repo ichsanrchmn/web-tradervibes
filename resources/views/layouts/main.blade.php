@@ -60,6 +60,10 @@
   <body>
     @include('partials.header')
 
+    <main id="main">
+      @yield('container')
+    </main>
+
     @include('partials.footer')
 
     <script

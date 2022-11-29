@@ -1,5 +1,8 @@
 @extends('layouts.main')
 
+
+@section('container')
+
 <section id="hero" class="d-flex align-items-center">
     <div class="container">
       <div class="row">
@@ -18,7 +21,6 @@
   </section>
   <!-- End Hero -->
 
-  <main id="main">
     <!-- ======= Clients Section ======= -->
     <section id="clients" class="clients section-bg">
       <div class="container">
@@ -314,5 +316,4 @@
       </div>
     </section>
     <!-- End Pricing Section -->
-  </main>
-  <!-- End #main -->
+@endsection

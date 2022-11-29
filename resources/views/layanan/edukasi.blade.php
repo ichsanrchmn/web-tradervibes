@@ -1,6 +1,6 @@
 @extends('layouts.main')
-<main id="main">
 @include('partials.breadcrumbs')
+@section('container')
 
 <section id="why-us" class="why-us section-bg">
   <div class="container-fluid" data-aos="fade-up">
@@ -77,4 +77,4 @@
   </div>
   {{-- End of Content --}}
 </section>
-</main>
+@endsection

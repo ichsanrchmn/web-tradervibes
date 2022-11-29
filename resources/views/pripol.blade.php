@@ -1,6 +1,6 @@
 @extends('layouts.main')
-<main id="main">
 @include('partials.breadcrumbs')
+@section('container')
 
     <section id="footer-items">
       <div class="items-title">
@@ -90,4 +90,4 @@
         </div>
       </div>
     </section>
-  </main>
+@endsection

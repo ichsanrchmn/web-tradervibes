@@ -1,4 +1,5 @@
 @extends('layouts.main')
-<main>
 @include('partials.breadcrumbs')
-</main>
+@section('container')
+    
+@endsection

@@ -1,6 +1,7 @@
 @extends('layouts.main')
-<main>
 @include('partials.breadcrumbs')
+@section('container')
+    
 <!-- ======= Frequently Asked Questions Section ======= -->
 <section id="faq" class="faq section-bg">
     <div class="container" data-aos="fade-up">
@@ -160,4 +161,4 @@
     </div>
   </section>
   <!-- End Frequently Asked Questions Section -->
-</main>
+@endsection
