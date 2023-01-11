@@ -1,5 +1,4 @@
 @extends('layouts.main')
-@include('partials.breadcrumbs')
 @section('container')
 
 <section id="why-us" class="why-us section-bg">
@@ -8,7 +7,7 @@
       <div class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch order-2 order-lg-1">
         <div class="content">
           <h3><strong>Edukasi Trading Forex</strong> dengan sistem terpadu</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic natus alias cumque inventore molestiae? Quae assumenda incidunt minima officiis eaque?</p>
+          <p>Pelajari trading forex </p>
         </div>
 
         <div class="accordion-list">
